@@ -15,3 +15,5 @@ def main(args):
     torch.cuda.set_device(0)
     device = torch.device('cuda',0)
     T = transforms.Compose([transforms.Resize((args.sample_size,args.sample_size)),transforms.ToTensor()]) 
+    a =3
+    
